@@ -14,7 +14,6 @@ export default function Container()
                 </label>
             </span>
             <button>حذف</button></li>
-
     )
     return (
         <section className="tasks-section">
