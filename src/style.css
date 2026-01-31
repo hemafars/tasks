@@ -1,0 +1,92 @@
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            direction: rtl;
+        }
+        
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+            padding: 10px;
+        }
+        header{
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            padding: 10px;
+        }
+        main{
+            max-width: 600px;
+            width: 100%;
+            background-color: #EEE;
+            margin: 10px;
+            padding: 10px;
+            box-shadow: 0px 0px 2px black;
+            
+        }
+        .add-task-section{
+            display: flex;
+            gap: 10px;
+        }
+        input{
+            flex: 1;
+            padding: 8px;
+            border-radius: 8px;
+        }
+        .btn-add-task{
+            padding: 8px;
+            font-size: 20px;
+            border: none;
+            background-color: green;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .tasks-section{
+            margin: 10px;
+        }
+        ul{
+            list-style-type: none;
+            
+        }
+        li{
+            margin:  10px 0;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0px 10px 0px;
+            display: flex;
+            font-size: 20px;
+            
+        }
+        li input{
+            margin-left: 10px;
+            transform: scale(1.5);
+            background-color: #990000;
+        }
+        span{
+            flex:1;
+        }
+        li button{
+            padding: 8px;
+            font-size: 20px;
+            border: none;
+            background-color: #990000;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        input[placeholder]{
+            font-size: 20px;
+        }
+        footer{
+            background-color:#DDD;
+            padding: 15px;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+            border-radius: 8px;
+        }
